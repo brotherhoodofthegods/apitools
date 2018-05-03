@@ -1,0 +1,29 @@
+{
+  "name": "brotherhoodofthegods/apitools",
+  "description": "API tools for Symfony 4",
+  "keywords": ["rest"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brotherhood of the Gods",
+      "email": "brotherhoodofthegods@gmail.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+    "php": ">=5.3.2",
+    "friendsofsymfony/rest-bundle": "^2.2"
+  },
+  "autoload": {
+    "psr-4":{
+      "BrotherhoodOfTheGods\\ApiToolsBundle\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}

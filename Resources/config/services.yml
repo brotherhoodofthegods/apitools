@@ -1,0 +1,3 @@
+services:
+    BrotherhoodOfTheGods\ApiToolsBundle\Http\ApiResponse:
+        arguments: ["@fos_rest.view_handler"]
